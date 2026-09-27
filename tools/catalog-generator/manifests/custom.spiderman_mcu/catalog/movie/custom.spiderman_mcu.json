@@ -1,0 +1,32 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:315635",
+      "type": "movie",
+      "name": "Spider-Man : Homecoming",
+      "poster": "https://image.tmdb.org/t/p/w200/wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg",
+      "year": "2017"
+    },
+    {
+      "id": "tmdb:429617",
+      "type": "movie",
+      "name": "Spider-Man : Far From Home",
+      "poster": "https://image.tmdb.org/t/p/w200/9FkewgPxlMPjgKhFN7LaRJEqmCI.jpg",
+      "year": "2019"
+    },
+    {
+      "id": "tmdb:634649",
+      "type": "movie",
+      "name": "Spider-Man : No Way Home",
+      "poster": "https://image.tmdb.org/t/p/w200/jwfDFqzxBkXC5bERBZrCEfK9iii.jpg",
+      "year": "2021"
+    },
+    {
+      "id": "tmdb:969681",
+      "type": "movie",
+      "name": "Spider-Man : Brand New Day",
+      "poster": "https://image.tmdb.org/t/p/w200/jjCCZcCtggGjKik2gXjyux1VEdZ.jpg",
+      "year": "2026"
+    }
+  ]
+}
