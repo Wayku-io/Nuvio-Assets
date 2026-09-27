@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.mandoverse",
+  "version": "1.0.0",
+  "name": "Mandoverse",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "custom.mandoverse",
+      "name": "Mandoverse"
+    }
+  ]
+}
