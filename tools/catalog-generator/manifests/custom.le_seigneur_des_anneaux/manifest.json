@@ -1,19 +1,19 @@
 {
   "id": "org.custom.catalog.custom.le_seigneur_des_anneaux",
   "version": "1.0.0",
-  "name": "Le Seigneur des Anneaux",
+  "name": "Le Seigneur des anneaux",
   "description": "Custom catalog generated via CatalogGen",
   "resources": [
     "catalog"
   ],
   "types": [
-    "movie"
+    "series"
   ],
   "catalogs": [
     {
-      "type": "movie",
+      "type": "series",
       "id": "custom.le_seigneur_des_anneaux",
-      "name": "Le Seigneur des Anneaux"
+      "name": "Le Seigneur des anneaux"
     }
   ]
 }
