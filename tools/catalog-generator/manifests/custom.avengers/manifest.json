@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.avengers",
+  "version": "1.0.0",
+  "name": "Avengers",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "custom.avengers",
+      "name": "Avengers"
+    }
+  ]
+}
