@@ -1,0 +1,18 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:330459",
+      "type": "movie",
+      "name": "Rogue One : A Star Wars Story",
+      "poster": "https://image.tmdb.org/t/p/w200/obsGPyNOAwkQbLRQOHR6a21VT23.jpg",
+      "year": "2016"
+    },
+    {
+      "id": "tmdb:348350",
+      "type": "movie",
+      "name": "Solo: A Star Wars Story",
+      "poster": "https://image.tmdb.org/t/p/w200/oMCIfJMezZeJvLK124uj4T0BpAy.jpg",
+      "year": "2018"
+    }
+  ]
+}
