@@ -1,0 +1,32 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:60554",
+      "type": "series",
+      "name": "Star Wars Rebels",
+      "poster": "https://image.tmdb.org/t/p/w200/3VGSQf04b85NE5oWwaQNj03gFX9.jpg",
+      "year": "2014"
+    },
+    {
+      "id": "tmdb:105971",
+      "type": "series",
+      "name": "Star Wars : The Bad Batch",
+      "poster": "https://image.tmdb.org/t/p/w200/1qiq7epG55stUjLpNGOnLb5SLiB.jpg",
+      "year": "2021"
+    },
+    {
+      "id": "tmdb:83867",
+      "type": "series",
+      "name": "Star Wars : Andor",
+      "poster": "https://image.tmdb.org/t/p/w200/wj0F4fU0jdsZI1cjiUSfeuE28y1.jpg",
+      "year": "2022"
+    },
+    {
+      "id": "tmdb:92830",
+      "type": "series",
+      "name": "Obi-Wan Kenobi",
+      "poster": "https://image.tmdb.org/t/p/w200/slX7j56s5gkuuXMYYOMHo47hFp1.jpg",
+      "year": "2022"
+    }
+  ]
+}
