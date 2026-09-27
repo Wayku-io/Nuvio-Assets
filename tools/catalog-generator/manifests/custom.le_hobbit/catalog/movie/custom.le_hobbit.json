@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:49051",
+      "type": "movie",
+      "name": "Le Hobbit : Un voyage inattendu",
+      "poster": "https://image.tmdb.org/t/p/w200/mdy9mG31U7jSB8edfRELv53Yfjp.jpg",
+      "year": "2012"
+    },
+    {
+      "id": "tmdb:57158",
+      "type": "movie",
+      "name": "Le Hobbit : La Désolation de Smaug",
+      "poster": "https://image.tmdb.org/t/p/w200/9JPVtscMdWGmOoWxNmc1hGdkxtM.jpg",
+      "year": "2013"
+    },
+    {
+      "id": "tmdb:122917",
+      "type": "movie",
+      "name": "Le Hobbit : La Bataille des cinq armées",
+      "poster": "https://image.tmdb.org/t/p/w200/h4wjbuC61iMaCqrO3bmGQ3ibuJE.jpg",
+      "year": "2014"
+    }
+  ]
+}
