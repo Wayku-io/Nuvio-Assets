@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.star_wars",
+  "version": "1.0.0",
+  "name": "Star Wars",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "custom.star_wars",
+      "name": "Star Wars"
+    }
+  ]
+}
