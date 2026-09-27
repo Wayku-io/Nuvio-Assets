@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.spiderman_mcu",
+  "version": "1.0.0",
+  "name": "Spiderman MCU",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "custom.spiderman_mcu",
+      "name": "Spiderman MCU"
+    }
+  ]
+}
