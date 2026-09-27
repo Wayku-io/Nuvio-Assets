@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.star_wars_spin_of",
+  "version": "1.0.0",
+  "name": "Star Wars spin of",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "custom.star_wars_spin_of",
+      "name": "Star Wars spin of"
+    }
+  ]
+}
