@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.r_bellion___empire",
+  "version": "1.0.0",
+  "name": "Rébellion & Empire",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "custom.r_bellion___empire",
+      "name": "Rébellion & Empire"
+    }
+  ]
+}
