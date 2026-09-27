@@ -782,9 +782,7 @@ function buildTitleHtml(title) {
         text-transform: uppercase;
         letter-spacing: 12px;
         white-space: nowrap;
-        background: linear-gradient(180deg, #ffffff 30%, #b5b7c0 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: #ffffff;
       }
     </style>
   </head>
