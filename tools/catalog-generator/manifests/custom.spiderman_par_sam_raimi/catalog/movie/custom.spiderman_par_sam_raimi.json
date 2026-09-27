@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:557",
+      "type": "movie",
+      "name": "Spider-Man",
+      "poster": "https://image.tmdb.org/t/p/w200/pNz1NREgddPdlzytlR8mW4B26fW.jpg",
+      "year": "2002"
+    },
+    {
+      "id": "tmdb:558",
+      "type": "movie",
+      "name": "Spider-Man 2",
+      "poster": "https://image.tmdb.org/t/p/w200/m8X5HdADsW5YdmVNjwTOArMOUoL.jpg",
+      "year": "2004"
+    },
+    {
+      "id": "tmdb:559",
+      "type": "movie",
+      "name": "Spider-Man 3",
+      "poster": "https://image.tmdb.org/t/p/w200/4SBTOPWMM3My5nDIlpNHt6dg78d.jpg",
+      "year": "2007"
+    }
+  ]
+}
