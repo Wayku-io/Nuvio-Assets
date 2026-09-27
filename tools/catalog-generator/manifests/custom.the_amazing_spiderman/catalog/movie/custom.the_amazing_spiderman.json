@@ -1,0 +1,18 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:1930",
+      "type": "movie",
+      "name": "The Amazing Spider-Man",
+      "poster": "https://image.tmdb.org/t/p/w200/gsIkMf1VErbF0xtrgXEZXqLgsBG.jpg",
+      "year": "2012"
+    },
+    {
+      "id": "tmdb:102382",
+      "type": "movie",
+      "name": "The Amazing Spider-Man : Le Destin d'un héros",
+      "poster": "https://image.tmdb.org/t/p/w200/rZ47R21ZGNTGr5ORxdMmxQWdcFn.jpg",
+      "year": "2014"
+    }
+  ]
+}
