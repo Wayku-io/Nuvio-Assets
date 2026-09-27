@@ -1,0 +1,32 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:82856",
+      "type": "series",
+      "name": "The Mandalorian",
+      "poster": "https://image.tmdb.org/t/p/w200/s8lHYTNYM919rDFvMs33tOeMbYf.jpg",
+      "year": "2019"
+    },
+    {
+      "id": "tmdb:115036",
+      "type": "series",
+      "name": "Le Livre de Boba Fett",
+      "poster": "https://image.tmdb.org/t/p/w200/bumvJZvV3p98VOvdkGIkGVz6utk.jpg",
+      "year": "2021"
+    },
+    {
+      "id": "tmdb:114461",
+      "type": "series",
+      "name": "Ahsoka",
+      "poster": "https://image.tmdb.org/t/p/w200/eiJeWeCAEZAmRppnXHiTWDcCd3Q.jpg",
+      "year": "2023"
+    },
+    {
+      "id": "tmdb:202879",
+      "type": "series",
+      "name": "Star Wars : Skeleton Crew",
+      "poster": "https://image.tmdb.org/t/p/w200/xb0uYH1FMotvyARwpY6Zj8VyTf9.jpg",
+      "year": "2024"
+    }
+  ]
+}
