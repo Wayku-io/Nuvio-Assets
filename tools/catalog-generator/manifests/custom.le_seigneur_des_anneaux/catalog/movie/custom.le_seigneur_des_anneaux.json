@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:120",
+      "type": "movie",
+      "name": "Le Seigneur des anneaux : La Communauté de l'anneau",
+      "poster": "https://image.tmdb.org/t/p/w200/5OPg6M0yHr21Ovs1fni2H1xpKuF.jpg",
+      "year": "2001"
+    },
+    {
+      "id": "tmdb:121",
+      "type": "movie",
+      "name": "Le Seigneur des anneaux : Les Deux Tours",
+      "poster": "https://image.tmdb.org/t/p/w200/qVHBqQYLDRs7ESjP9q6o9iPHLWj.jpg",
+      "year": "2002"
+    },
+    {
+      "id": "tmdb:122",
+      "type": "movie",
+      "name": "Le Seigneur des anneaux : Le Retour du roi",
+      "poster": "https://image.tmdb.org/t/p/w200/ypUCFOvOf07bcHy81jng9LyMUfi.jpg",
+      "year": "2003"
+    }
+  ]
+}
