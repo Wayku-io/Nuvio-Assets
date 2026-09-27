@@ -1,0 +1,32 @@
+{
+  "metas": [
+    {
+      "id": "tmdb:219937",
+      "type": "series",
+      "name": "Dexter : Les Origines",
+      "poster": "https://image.tmdb.org/t/p/w200/6hzgvVO0LBgHo6C7BaiE658MsIy.jpg",
+      "year": "2024"
+    },
+    {
+      "id": "tmdb:1405",
+      "type": "series",
+      "name": "Dexter",
+      "poster": "https://image.tmdb.org/t/p/w200/ptQtKhlJYtPlp5ecvJXvIGyjCjf.jpg",
+      "year": "2006"
+    },
+    {
+      "id": "tmdb:131927",
+      "type": "series",
+      "name": "Dexter: New Blood",
+      "poster": "https://image.tmdb.org/t/p/w200/9EBKgrFIsCFSV1RZKWhYUdbtGiv.jpg",
+      "year": "2021"
+    },
+    {
+      "id": "tmdb:259909",
+      "type": "series",
+      "name": "Dexter: Resurrection",
+      "poster": "https://image.tmdb.org/t/p/w200/teZOzBZhugzh7UfW6xuPp4wJ5oU.jpg",
+      "year": "2025"
+    }
+  ]
+}
