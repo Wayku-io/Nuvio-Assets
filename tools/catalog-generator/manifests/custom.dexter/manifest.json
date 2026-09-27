@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.dexter",
+  "version": "1.0.0",
+  "name": "Dexter",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "custom.dexter",
+      "name": "Dexter"
+    }
+  ]
+}
