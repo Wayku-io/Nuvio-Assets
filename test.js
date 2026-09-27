@@ -1,0 +1,1 @@
+const { execSync } = require('child_process'); const ffmpegPath = require('c:/Users/Kenyd/Documents/Nuvio/test-nuvio/node_modules/ffmpeg-static/index.js'); execSync('"' + ffmpegPath + '" -i dist/GIF/lastframe/marvel.gif -vf reverse -vframes 1 -y dist/GIF/lastframe/marvel.png');

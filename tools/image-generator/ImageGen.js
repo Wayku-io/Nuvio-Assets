@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const sharp = require('sharp');
 
 const BASE_URL = 'https://aiometadatafortheweebs.midnightignite.me/stremio/1609e9ee-c194-445e-b25c-410e88954386';
 
@@ -784,7 +785,6 @@ function buildTitleHtml(title) {
         background: linear-gradient(180deg, #ffffff 30%, #b5b7c0 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.95));
       }
     </style>
   </head>
@@ -986,7 +986,18 @@ async function run() {
 
         const titleNode = await page.$('#title-node');
         const titleBuf = await titleNode.screenshot({ type: 'webp', omitBackground: true, quality: 92 });
-        fs.writeFileSync(path.join(distDir, col.folder, 'title.webp'), titleBuf);
+        
+        const resizedTitleBuf = await sharp({
+          create: { width: 2400, height: 842, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } }
+        })
+        .composite([{
+          input: await sharp(titleBuf).resize({ width: 2400, height: 842, fit: 'inside' }).toBuffer(),
+          gravity: 'center'
+        }])
+        .webp({ quality: 92 })
+        .toBuffer();
+        
+        fs.writeFileSync(path.join(distDir, col.folder, 'title.webp'), resizedTitleBuf);
         console.log(`✅ Title    : dist/${col.folder}/title.webp`);
       }
 
