@@ -28,7 +28,12 @@ async function processTitles() {
       
       const inputBuffer = fs.readFileSync(file);
       
-      const buffer = await sharp(inputBuffer).resize({ width: 2400, height: 842, fit: 'inside' }).toBuffer();
+      // Trim empty space (transparent padding) first!
+      // 'threshold: 10' might help if there are near-transparent pixels, 
+      // but trim() with no arguments trims the top-left pixel color (which is transparent).
+      const trimmedBuffer = await sharp(inputBuffer).trim().toBuffer();
+      
+      const buffer = await sharp(trimmedBuffer).resize({ width: 2400, height: 842, fit: 'inside' }).toBuffer();
       
       const resized = await sharp({
         create: { width: 2400, height: 842, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } }

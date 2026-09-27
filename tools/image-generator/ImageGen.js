@@ -991,7 +991,7 @@ async function run() {
           create: { width: 2400, height: 842, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } }
         })
         .composite([{
-          input: await sharp(titleBuf).resize({ width: 2400, height: 842, fit: 'inside' }).toBuffer(),
+          input: await sharp(titleBuf).trim().resize({ width: 2400, height: 842, fit: 'inside' }).toBuffer(),
           gravity: 'center'
         }])
         .webp({ quality: 92 })
