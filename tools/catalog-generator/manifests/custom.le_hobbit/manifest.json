@@ -1,0 +1,19 @@
+{
+  "id": "org.custom.catalog.custom.le_hobbit",
+  "version": "1.0.0",
+  "name": "Le Hobbit",
+  "description": "Custom catalog generated via CatalogGen",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "custom.le_hobbit",
+      "name": "Le Hobbit"
+    }
+  ]
+}
