@@ -14,9 +14,9 @@ const COLLECTIONS = [
     title: 'Nouveautés',
     caption: 'Films & Séries • Dernières sorties',
     folder: 'principales/nouveautes',
-    sortByPopularity: true,
-    movieSource: `${BASE_URL}/catalog/movie/tmdb.discover.movie.sorties_digitales_copy.mpzretj9.json`,
-    serieSource: `${BASE_URL}/catalog/series/tmdb.discover.movie.nouveaut_s_copy.mpa0h2yk.json`
+    sortByPopularity: false,
+    movieSource: `${BASE_URL}/catalog/movie/mdblist.168436.json`,
+    serieSource: `${BASE_URL}/catalog/series/mdblist.223709.json`
   },
   {
     id: 'populaires',
@@ -807,7 +807,12 @@ async function run() {
   const page = await browser.newPage();
   await page.setViewport({ width: 1920, height: 1080 });
 
-  for (const col of COLLECTIONS) {
+  const targetColId = process.argv[2];
+  const targetCollections = targetColId
+    ? COLLECTIONS.filter(c => c.id === targetColId || c.folder.includes(targetColId))
+    : COLLECTIONS;
+
+  for (const col of targetCollections) {
     console.log(`\n========================================`);
     console.log(`Collection : ${col.name}`);
     console.log(`========================================`);
